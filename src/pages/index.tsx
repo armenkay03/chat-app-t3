@@ -46,7 +46,7 @@ const CreatePostWizard = () => {
         }
       }} />
       <input
-        placeholder="Type some emojis!"
+        placeholder= "Hello world! maybe?"
         className="grow bg-transparent outline-none"
         type="text"
         value={input}
@@ -116,7 +116,7 @@ const Home: NextPage = () => {
 
       <Feed />
       <div className="flex items-center justify-between p-4 text-xl">
-        <a href="https://github.com/t3dotgg/chirp">
+        <a href="https://github.com/armenkay03">
           <div className="flex items-center justify-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,7 @@ const Home: NextPage = () => {
           </div>
         </a>
         <span>
-          <a href="https://patreon.com/t3dotgg">🐦 Chirp Blue</a>
+         Armen Kay
         </span>
       </div>
     </PageLayout>
