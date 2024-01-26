@@ -22,6 +22,7 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 ## How To deploy?
 Follow the deployment guide for [Vercel](https://create.t3.gg/en/deployment/vercel) for more information.
 Add the appropriate credentials in a .env file following the .env.example.
+
 To run this on your localhost git clone, then run ```npm i && npm run dev```.
 
 For more help you can find the links to the services mentioned in the .env.example file in respective order below.
