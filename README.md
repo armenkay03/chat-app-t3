@@ -2,15 +2,11 @@
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
+- [Prisma](https://prisma.io) 
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
@@ -23,6 +19,23 @@ To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the fo
 
 You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
 
-## How do I deploy this?
+## How To deploy?
+Follow the deployment guide for [Vercel](https://create.t3.gg/en/deployment/vercel) for more information.
+Add the appropriate credentials in a .env file following the .env.example.
+To run this on your localhost git clone, then run ```npm i && npm run dev```.
+Disclaimer! This project is running `npx create-t3-app` version 7.7.0, many features and components may be outdated.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+For more help you can find the links to the services mentioned in the .env.example file in respective order below.
+
+
+
+
+
+
+- [PlanetScale]
+- [Clerk]
+- [Redis] (For last two variables)
+
+[PlanetScale]: <https://planetscale.com/>
+[Clerk]:<https://clerk.com/>
+[Redis]: <https://console.upstash.com/login>
